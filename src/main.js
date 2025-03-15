@@ -87,7 +87,7 @@ document.querySelector("#app").innerHTML = `
         <h2 class="text-2xl sm:text-3xl font-bold text-center mb-8">Nuestro trabajo</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div class="bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <img src="/assets/santa_anita_liverpool.jpg" alt="Bienvenidos" class="w-full h-48 sm:h-56 object-cover rounded-t-lg">
+                <img src="/assets/santa_anita_liverpool.webp" alt="Bienvenidos" class="w-full h-48 sm:h-56 object-cover rounded-t-lg">
                 <div class="p-6">
                     <h3 class="text-lg sm:text-xl font-bold mb-2">Guadalajara, Liverpool</h3>
                     <p class="text-gray-700 text-sm sm:text-base">
