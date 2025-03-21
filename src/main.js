@@ -25,8 +25,8 @@ document.querySelector("#app").innerHTML = `
     </nav>
 
     <!-- Modales -->
-    <div id="modal-cert" class="fixed inset-0 hidden justify-center items-center p-4"> 
-    </div>
+    <div id="modal-cert" class="fixed inset-0 hidden justify-center items-center p-4"></div> 
+    <div id="modal-pdf" class="fixed inset-0 hidden justify-center items-center p-4"></div>
     <!-- Banner -->
     <section class="h-80 px-4 bg-blue-600 text-white py-20 animate-banner-zoom banner-intecsa" >
         <div class="container mx-auto px-4 sm:px-6 text-center md:text-left">
@@ -45,7 +45,7 @@ document.querySelector("#app").innerHTML = `
                 </h3>
                 <p class="text-gray-700 text-sm sm:text-base">Lorem tempor qui qui fugiat nisi ad minim. Elit magna elit aliquip irure.</p>
             </div>
-            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div id="curriculum-btn" class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h3 class="text-xl sm:text-2xl font-bold mb-4 flex justify-between">
                      Curriculum
                      <img src="/icons/curriculum.svg" alt="Certificaciones" class="h-6 w-16">
