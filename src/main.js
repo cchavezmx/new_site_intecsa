@@ -24,6 +24,9 @@ document.querySelector("#app").innerHTML = `
         </div>
     </nav>
 
+    <!-- Modales -->
+    <div id="modal-cert" class="fixed inset-0 hidden justify-center items-center p-4"> 
+    </div>
     <!-- Banner -->
     <section class="h-80 px-4 bg-blue-600 text-white py-20 animate-banner-zoom banner-intecsa" >
         <div class="container mx-auto px-4 sm:px-6 text-center md:text-left">
@@ -35,7 +38,7 @@ document.querySelector("#app").innerHTML = `
     <!-- Productos Destacados -->
     <section class="container mx-auto px-4 sm:px-6 py-12">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div id="gellery-cert" class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h3 class="text-xl sm:text-2xl font-bold mb-4 flex justify-between">
                     Certificaciones
                     <img src="/icons/certificated.svg" alt="Certificaciones" class="h-6 w-16">
