@@ -29,7 +29,7 @@ const filePdfModal = () => {
     div.innerHTML = `
        <div class="flex justify-center items-center fixed inset-0 bg-gray-800 bg-opacity-25 p-2 sm:p-4">
         <div class="bg-white rounded-lg p-6 max-w-4xl w-full overflow-y-auto">
-        <div class="text-gray-800 space-y-4 mt-40">
+        <div class="text-gray-800 space-y-4 mb-8 h-screen w-full py-8">
           <h1 class="text-2xl font-bold border-b pb-2 border-blue-500">
             Grupo INTECSA
           </h1>          
